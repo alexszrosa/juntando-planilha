@@ -1,8 +1,8 @@
 import os
 import pandas as pd
 
-#crie uma pasta data e coloque as planilhas nessa pasta
-caminho = r"...\juntando-planilha\data" 
+#crie uma pasta dados e coloque as planilhas nessa pasta
+caminho = r"...\juntando-planilha\dados" 
 
 #Lista todos os arquivos na pasta
 arquivos = [os.path.join(caminho, arquivo) for arquivo in os.listdir(caminho)]
